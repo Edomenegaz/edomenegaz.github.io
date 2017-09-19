@@ -1,0 +1,16 @@
+* {
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: white;
+  text-align: left;
+  font-size: 150px;
+}
+
+h3 {
+  color: white;
+  text-align: right;
+  font-size: 40px;
+}
