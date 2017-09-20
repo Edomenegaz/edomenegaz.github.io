@@ -1,6 +1,7 @@
 * {
   background-color: black;
   font-family: 'Montserrat', sans-serif;
+  text-rendering: optimizeLegibility;
 }
 
 h1 {
