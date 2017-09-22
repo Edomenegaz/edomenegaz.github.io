@@ -2,9 +2,9 @@
     font-family: 'montserratregular';
     src: url('fonts/montserrat-regular-webfont.woff2') format('woff2'),
          url('fonts/montserrat-regular-webfont.woff') format('woff'),
-         url('fonts/montserrat-regular-webfont.eof') format('eof'),
-         url('fonts/montserrat-regular-webfont.ttf') format('ttf'),
-         url('fonts/montserrat-regular-webfont.otf') format('otf');
+         url('fonts/montserrat-regular-webfont.eot') format('embedded-opentype'),
+         url('fonts/montserrat-regular-webfont.ttf') format('truetype'),
+         url('fonts/montserrat-regular-webfont.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
