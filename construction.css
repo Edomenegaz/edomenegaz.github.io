@@ -1,17 +1,28 @@
+@font-face {
+    font-family: 'montserratregular';
+    src: url('fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
   background-color: black;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'montserratregular', sans-serif;
   text-rendering: optimizeLegibility;
+  line-height: 100%;
 }
 
 h1 {
   color: white;
   text-align: left;
   font-size: 150px;
+  padding-left: 50px;
 }
 
 h3 {
   color: white;
   text-align: right;
   font-size: 40px;
+  padding-right: 50px;
 }
