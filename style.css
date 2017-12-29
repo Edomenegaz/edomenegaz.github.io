@@ -1,9 +1,138 @@
-* {
-  background-color: rgb(0, 11, 59);
+@font-face {
+    font-family: 'MaisonNeueMono';
+    font-style: normal;
+    src: url('fonts/MaisonNeueWEB-Mono.ttf') format('truetype'); 
 }
 
-h1, h3 {
-  color: white;
-  text-align: center;
-  font-family: sans-serif;
+@font-face {
+    font-family: 'MaisonNeueBold';
+    font-style: normal;
+    src: url('fonts/MaisonNeueWEB-Bold.ttf') format('truetype');
+}
+
+body {
+    width: 100%;
+    margin-top: 230px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0f0f0f;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto 0 60px;
+}
+
+#header {
+    background: rgba(355, 355, 355, 0);
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+#header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.faded-text {
+    color: rgba(355, 355, 355, 0.6);
+    font-family: 'MaisonNeueMono';
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.nonfaded-text {
+    color: rgba(355, 355, 355, 1.0);
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    margin-left: 30px;
+    position: relative;
+}
+
+#social {
+    float: left;
+    padding-top:25px;
+    padding-bottom: 35px;
+}
+
+#nav {
+    float: right;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    margin-right: 75px;
+}
+
+h1 {
+    font-family: 'MaisonNeueBold';
+    font-size: 4.5em;
+    color: white;
+}
+
+#nav li::before {
+    /*background-color: #444;*/
+    background-color: rgba(355, 355, 355, 0.8);
+    content: '';
+    display: block;
+    height: 1.5px;
+
+    position: absolute;
+    width: 0%;
+    top: 7px;
+
+    transition: all ease-in-out 250ms;
+}
+
+#nav li:hover::before {
+    width: 100%;
+}
+
+#social li #twitter-link::before {
+    background-color: rgb(29, 161, 242);
+    content: '';
+    display: block;
+    height: 1.5px;
+
+    position: absolute;
+    width: 0%;
+    top: 7px;
+
+    transition: all ease-in-out 250ms;
+}
+
+#social li #twitter-link:hover::before {
+    width: 100%;
+}
+
+
+/* HIGHLIGHTED WORDS */
+
+#unimeal_word {
+    color: #FCD614;
+}
+
+#letsjam_word {
+    color: #EE1C25;
+}
+
+#micme_word {
+    color: #7FBA27;
+}
+
+#visualstoryteller_word {
+    text-decoration: underline;
 }
