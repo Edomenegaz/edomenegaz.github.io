@@ -1,18 +1,25 @@
 @font-face {
     font-family: 'MaisonNeueMono';
     font-style: normal;
+    font-weight: normal;
     src: 
-        url('fonts/MaisonNeueWEB-Mono.ttf') format('truetype'),
-        url('fonts/MaisonNeueWEB-Mono.woff') format('woff'); 
+        url('./fonts/MaisonNeueWEB-Mono.ttf') format('truetype'),
+        url('./fonts/MaisonNeueWEB-Mono.woff') format('woff'); 
 }
 
 @font-face {
     font-family: 'MaisonNeueBold';
     font-style: normal;
+    font-weight: normal;
     src: 
-        url('fonts/MaisonNeueWEB-Bold.ttf') format('truetype'),
-        url('fonts/MaisonNeueWEB-Bold.woff') format('woff');
+        url('./fonts/MaisonNeueWEB-Bold.ttf') format('truetype'),
+        url('./fonts/MaisonNeueWEB-Bold.woff') format('woff');
 }
+
+h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
+    font-weight: normal; 
+}
+
 
 body {
     width: 100%;
