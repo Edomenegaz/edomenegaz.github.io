@@ -1,13 +1,17 @@
 @font-face {
     font-family: 'MaisonNeueMono';
     font-style: normal;
-    src: url('fonts/MaisonNeueWEB-Mono.ttf') format('truetype'); 
+    src: 
+        url('fonts/MaisonNeueWEB-Mono.ttf') format('truetype'),
+        url('fonts/MaisonNeueWEB-Mono.woff') format('woff'); 
 }
 
 @font-face {
     font-family: 'MaisonNeueBold';
     font-style: normal;
-    src: url('fonts/MaisonNeueWEB-Bold.ttf') format('truetype');
+    src: 
+        url('fonts/MaisonNeueWEB-Bold.ttf') format('truetype'),
+        url('fonts/MaisonNeueWEB-Bold.woff') format('woff');
 }
 
 body {
