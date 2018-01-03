@@ -184,15 +184,9 @@ h1 {
     width: 100%;
     margin: 0 auto;
     justify-content: center;
-    align-items: center;
     display: grid;
-    grid-template-rows: 2fr;
     margin-left: -4.5%;
     position: relative;
-}
-
-#myfooter .container #footer-social-icons-container > ul {
-    background-color: yellow;
 }
 
 .footer-text {
@@ -221,14 +215,9 @@ h1 {
     color: rgba(355, 355, 355, 0.65);
 }
 
-#footer-social-icons-container {
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    position: absolute;
-    left: 50%;
-    right: 50%;
-    transform: translate(-50%, -50%);
+#footer-icons-container {
+    margin: auto;
+    padding-bottom: 50px;
 }
 
 /*grid-item {
