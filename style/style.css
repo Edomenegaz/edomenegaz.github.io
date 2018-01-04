@@ -27,12 +27,32 @@ body {
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
-    background-color: #161616;
+    background-color: #0c0c0c;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    margin-left: 30px;
+    position: relative;
 }
 
 .container {
     width: 81%;
     margin: 0 auto 0 60px;
+}
+
+#header .container {
+    width: 100%;
+    margin: 0;
 }
 
 #header {
@@ -51,28 +71,13 @@ body {
 .faded-text {
     color: rgba(355, 355, 355, 0.42);
     font-family: 'MaisonNeueMono';
-    font-size: 0.8em;
+    font-size: 0.75em;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
 .nonfaded-text {
     color: rgba(355, 355, 355, 1.0);
-}
-
-a {
-    color: inherit;
-    text-decoration: inherit;
-}
-
-ul {
-    list-style-type: none;
-}
-
-li {
-    float: left;
-    margin-left: 30px;
-    position: relative;
 }
 
 #social {
@@ -205,7 +210,7 @@ h1 {
     font-size: 4rem;
     letter-spacing: -0.058rem;
     line-height: 4.8rem;
-    color: #161616;
+    color: #0c0c0c;
 }
 
 /* FOOTER */
@@ -233,7 +238,7 @@ h1 {
     margin-left: 5em;
     text-align: center;
     font-family: 'MaisonNeueMono';
-    font-size: 0.8em;
+    font-size: 0.75em;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -257,20 +262,6 @@ h1 {
     margin: auto;
     padding-bottom: 50px;
 }
-
-/*grid-item {
-    position: relative;
-    text-align: center;
-  }
-  
-  span {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-  }*/  
-
-/* HIGHLIGHTED WORDS */
 
 #unimeal_word {
     color: #FCD614;
