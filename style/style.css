@@ -65,7 +65,7 @@ li {
 #header {
     background: rgba(355, 355, 355, 0);
     width: 100%;
-    top: 0;
+    top: 154px;
     position: fixed;
 }
 
@@ -73,6 +73,33 @@ li {
     content: '';
     display: table;
     clear: both;
+}
+
+#under-construction-header .container{
+    width: 100%;
+    margin: 0;
+}
+
+#under-construction-header {
+    /*background: rgb(255, 57, 57);*/
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    width: 100%;
+    top: 0;
+    position: absolute;
+}
+
+#under-construction-header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#under-construction-nav {
+    float: right;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    margin-right: 75px;
 }
 
 .faded-text {
@@ -93,19 +120,33 @@ li {
     padding-bottom: 35px;
 }
 
-#nav {
-    float: right;
-    padding-top: 25px;
-    padding-bottom: 35px;
-    margin-right: 75px;
-}
-
 h1 {
     font-family: 'MaisonNeueBold', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 4rem;
     letter-spacing: -0.058rem;
     line-height: 4.8rem;
     color: white;
+}
+
+.under-construction-title {
+    font-family: 'MaisonNeueBold', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4rem;
+    letter-spacing: -0.058rem;
+    line-height: 4.8rem;
+    color: #0c0c0c;   
+}
+
+.under-construction-subtitle {
+    font-family: 'MaisonNeueMono';
+    font-size: 0.75em;
+    color: #0c0c0c;
+}
+
+#nav {
+    float: right;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    margin-right: 75px;
 }
 
 #nav li::before {
@@ -218,6 +259,14 @@ h1 {
     letter-spacing: -0.058rem;
     line-height: 4.8rem;
     color: #0c0c0c;
+}
+
+#dot-under-construction-title {
+    color: white;
+}
+
+#twitter-profile-link-under-construction {
+    color: white;
 }
 
 /* FOOTER */
