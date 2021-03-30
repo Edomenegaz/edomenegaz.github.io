@@ -1,8 +1,5 @@
 .*
 ~*
-instaspread.html
-underconstruction-banner.html
-unused-fonts
 # ignore node/grunt dependency directories
 node_modules/
 
